@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qp96tWlNu5aXWb424DayOtODSKo=
+		yZCFVVOVS84bxq8eMm1bs8c6Z7s=
 		</data>
 		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		nx8j9I4fq20OXa/JL4Ao47BNTh4=
+		jqr747qBuBzBSceZpLm6fHc4mmE=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		85qrVtl9j8nWyZ1PoYym83EaoGE=
+		cbh8O/ONCq61y4jQflfmuwAd3mo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -128,6 +128,60 @@
 		<data>
 		4JuLJuMWXCnUZX9m3LzDYmbYhmY=
 		</data>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SHTIB66wnpIi5TynnErj9HbFy3E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cwepiAyPA76yQbmfoQicY7dcH3w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nmi/+5iep1fI3f9ze+5QTlbc4M4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ruXAK239kTj+hwmZgcarEHNvKiI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QOXaADMzVkS7NYFJrcrx2p52Zlk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QOXaADMzVkS7NYFJrcrx2p52Zlk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -247,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L+DAL/GSnns5jL8UbXAcD2fs+V8fmSeV9DYXyoDqVEY=
+			jUMPvjDYuJPA8efLarx5zxx01+yySeJrWsWy6/yjWP0=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -268,7 +322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q0mvNoEA1yInRQdtI75OqtqX/x66Xuq0EOKNvSkFo3Y=
+			wHlAc2xZCTgi7RE0mIPPA95YI1/G0laKvXqHnejwQ8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -340,6 +394,60 @@
 			<data>
 			lK8ve/CZSlojf2M37hn4AGCnYVtZUBc1563LBxl61VQ=
 			</data>
+		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cxLEXb4kWmEOa6aqFdOr8Z6t+seXKwoiGdcIE87gmu0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UrJhTV1t9WwRubzFqKtiL7a4f9lOxXQO/+JJ5aTaIlI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PjJxtfFTon9/ZthUJmHxknL30KUW1z6yJnN0trHbuIg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U+Z84uIyzjDraZFgbZKIoeHTcvP6l7HWVcrWsOG4Vws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gZcu5ZiMLuHtLjRKAQCGHjYo11YNXF7qWGxLw9v8X0I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gZcu5ZiMLuHtLjRKAQCGHjYo11YNXF7qWGxLw9v8X0I=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
