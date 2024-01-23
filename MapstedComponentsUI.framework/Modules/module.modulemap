@@ -1,7 +1,7 @@
 framework module MapstedComponentsUI {
   umbrella header "MapstedComponentsUI.h"
-
   export *
+
   module * { export * }
 }
 

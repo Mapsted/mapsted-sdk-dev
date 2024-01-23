@@ -1,7 +1,7 @@
 framework module MapstedAlerts {
   umbrella header "MapstedAlerts.h"
-
   export *
+
   module * { export * }
 }
 

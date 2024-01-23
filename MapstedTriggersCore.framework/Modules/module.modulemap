@@ -1,7 +1,7 @@
 framework module MapstedTriggersCore {
   umbrella header "MapstedTriggersCore.h"
-
   export *
+
   module * { export * }
 }
 
