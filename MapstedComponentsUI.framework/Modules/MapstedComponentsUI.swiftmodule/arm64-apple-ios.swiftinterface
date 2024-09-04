@@ -1,0 +1,564 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedComponentsUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
+import Foundation
+import Kingfisher
+import LocationMarketing
+import MapstedAlerts
+@_exported import MapstedComponentsUI
+import MapstedCore
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NewsFeedsViewControllerDelegate : ObjectiveC.NSObject {
+  func openNewsFeedDetails(campaign: MapstedCore.Campaign?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NewsFeedsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var propertyId: Swift.Int
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.NewsFeedsViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) public var isFromTabbar: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.CategoryListViewController : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MNAndroidActivityView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
+  @objc deinit
+}
+extension MapstedComponentsUI.KeywordCellLayout {
+  public enum LayoutAlignment : Swift.Int {
+    case left
+    case center
+    case right
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) public class MPLoaderActivityView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) public var activityIndicator: MapstedComponentsUI.MNAndroidActivityView!
+  @_Concurrency.MainActor(unsafe) public func setActivityIndicatorView()
+  @_Concurrency.MainActor(unsafe) public func show(duration: CoreFoundation.CFTimeInterval = 3, text: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func dismiss()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class EntityChooserContainerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol EntityChoiceSelectionHandler : AnyObject {
+  func selectEntity(searchable: any MapstedCore.Searchable, hostVC: UIKit.UIViewController?)
+  func selectNearest(group: MapstedCore.SearchEntity, hostVC: UIKit.UIViewController?)
+  func exitChooser(hostVC: UIKit.UIViewController?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class EntityChooserViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public func setSearchEntityGroup(group: MapstedCore.SearchEntity)
+  @_Concurrency.MainActor(unsafe) final public func setSelectionDelegate(_ delegate: ((any MapstedCore.Searchable) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) final public func setSelectNearestDelegate(_ delegate: ((MapstedCore.SearchEntity) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) final public func setCloseActionDelegate(_ delegate: (() -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.EntityChooserViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension MapstedComponentsUI.EntityChooserViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+public protocol SearchResultSelectionDelegate {
+  func didSelectSearchResult(item: any MapstedCore.CMSSearchable)
+  func didSelectCategoryTag(string: Swift.String)
+  func tableViewDidScrollTowardsEnd()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SearchResultsManager : ObjectiveC.NSObject {
+  public static let shared: MapstedComponentsUI.SearchResultsManager
+  public func updateSearchResults(newResult: [MapstedComponentsUI.SearchResultSection : [Any]], forTableView tableView: UIKit.UITableView, showRecents: Swift.Bool? = false, categoryTree: MapstedCore.CMSCategoryTree? = nil, withHandler handler: (any MapstedComponentsUI.SearchResultSelectionDelegate)? = nil)
+  @objc deinit
+}
+extension MapstedComponentsUI.SearchResultsManager : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension MapstedComponentsUI.SearchResultsManager : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class KWTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol KeywordCellLayoutDelegate : ObjectiveC.NSObject {
+  func keywordCellLayoutTagSize(layout: MapstedComponentsUI.KeywordCellLayout, atIndex index: Swift.Int) -> CoreFoundation.CGSize
+  func keywordCellLayoutInteritemHorizontalSpacing(layout: MapstedComponentsUI.KeywordCellLayout) -> CoreFoundation.CGFloat
+  func keywordCellLayoutInteritemVerticalSpacing(layout: MapstedComponentsUI.KeywordCellLayout) -> CoreFoundation.CGFloat
+}
+extension MapstedComponentsUI.NewsFeedsViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+@_hasMissingDesignatedInitializers public class LocalizationManager {
+  @objc deinit
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func add(_ child: UIKit.UIViewController, toView view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func remove()
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func scrollTo(row: Swift.Int, section: Swift.Int, scrollPosition: UIKit.UITableView.ScrollPosition = .top, animated: Swift.Bool = false)
+}
+extension MapstedComponentsUI.BuildingListViewController : UIKit.UISearchBarDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarBookmarkButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarCancelButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
+}
+extension MapstedComponentsUI.KWCollectionView : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension MapstedComponentsUI.KWCollectionView : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+}
+extension MapstedComponentsUI.KWCollectionView : MapstedComponentsUI.KeywordCellLayoutDelegate {
+  @_Concurrency.MainActor(unsafe) public func keywordCellLayoutInteritemHorizontalSpacing(layout: MapstedComponentsUI.KeywordCellLayout) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public func keywordCellLayoutInteritemVerticalSpacing(layout: MapstedComponentsUI.KeywordCellLayout) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public func keywordCellLayoutTagSize(layout: MapstedComponentsUI.KeywordCellLayout, atIndex index: Swift.Int) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) public func textSize(text: Swift.String, font: UIKit.UIFont, collectionView: UIKit.UICollectionView) -> CoreFoundation.CGSize
+}
+extension MapstedComponentsUI.KWCollectionView {
+  @_Concurrency.MainActor(unsafe) public func didTapButton(name: MapstedCore.CMSCategory, action: MapstedComponentsUI.ActionType)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class TagsTableViewCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) final public func setTapAction(action: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) final public func setTags(tags: [Swift.String])
+  @_Concurrency.MainActor(unsafe) final public func cellHeight() -> CoreFoundation.CGFloat
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.TagsTableViewCell : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension MapstedComponentsUI.TagsTableViewCell : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension MapstedComponentsUI.TagsTableViewCell : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+}
+public enum ActionType {
+  case addKeyword
+  case removeKeyword
+  case noAction
+  public static func == (a: MapstedComponentsUI.ActionType, b: MapstedComponentsUI.ActionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func applyShadow(shadowRadius: CoreFoundation.CGFloat = 4)
+  @_Concurrency.MainActor(unsafe) public func applyShadow(opacity: Swift.Float, offsetX: CoreFoundation.CGFloat, offsetY: CoreFoundation.CGFloat, radius: CoreFoundation.CGFloat)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class SearchableChooserViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public func setSearchEntityGroup(group: MapstedCore.SearchEntity)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.SearchableChooserViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension MapstedComponentsUI.SearchableChooserViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ArbitraryLocationCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setTitleText(to string: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setDescriptionText(to string: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setBuildingNameText(to string: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setImage(to image: UIKit.UIImage?)
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.CategoryListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+public protocol AlertSelectionDelegate : AnyObject {
+  func didSelect(alert: MapstedAlerts.AlertSearchable)
+}
+public protocol AlertsTableViewDelegate : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  func updateAlerts(withList alertList: [MapstedAlerts.AlertSearchable], forTableView tableView: UIKit.UITableView, withHandler handler: (any MapstedComponentsUI.AlertSelectionDelegate)?)
+  func updateAlerts(withPropertyId propertyId: Swift.Int, alertsToShow: [Swift.String]?, forTableView tableView: UIKit.UITableView, withHandler handler: (any MapstedComponentsUI.AlertSelectionDelegate)?)
+}
+public class Property {
+  public init(propertyName: Swift.String, propertyAddress: Swift.String, propertyImageUrl: Swift.String?, propertyId: Swift.Int, imageUId: Swift.String?, isDownloadAvailable: Swift.Bool, propertyRadius: Swift.Double, distance: Swift.Double)
+  @objc deinit
+}
+public enum SearchResultSection : Swift.Int {
+  case Entity
+  case Mall
+  case Building
+  case Category
+  case Store
+  case Feed
+  case Tag
+  case Alerts
+  case MapOverlay
+  public var displayOrder: Swift.Int {
+    get
+  }
+  public var displayName: Swift.String {
+    get
+  }
+  public var maxNumberOfItems: (forRecents: Swift.Int, forAll: Swift.Int) {
+    get
+  }
+  public var isOverlay: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol KWCollectionViewDelegate : UIKit.UIViewController {
+  func keywordIsBeingAdded(name: MapstedCore.CMSCategory?)
+  func keywordIsBeingRemoved(name: MapstedCore.CMSCategory?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class KWCollectionView : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var customFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) public var customSpacing: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var customCornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var customBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var customTagBorderColor: UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) public var customTagBorderWidth: CoreFoundation.CGFloat?
+  @_Concurrency.MainActor(unsafe) public var action: MapstedComponentsUI.ActionType
+  @_Concurrency.MainActor(unsafe) public var keywordsCollectionView: UIKit.UICollectionView!
+  @_Concurrency.MainActor(unsafe) public var keywordCellLayout: MapstedComponentsUI.KeywordCellLayout!
+  @_Concurrency.MainActor(unsafe) public var receiver: MapstedComponentsUI.KWCollectionView?
+  @_Concurrency.MainActor(unsafe) public var delegate: (any MapstedComponentsUI.KWCollectionViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public var keywords: [MapstedCore.CMSCategory]
+  @_Concurrency.MainActor(unsafe) convenience public init(keywords: [MapstedCore.CMSCategory], action: MapstedComponentsUI.ActionType, receiver: MapstedComponentsUI.KWCollectionView?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func addNewKeyword(named keyword: MapstedCore.CMSCategory)
+  @_Concurrency.MainActor(unsafe) public func removeOldKeyword(named keyword: MapstedCore.CMSCategory)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class Building {
+  public init(buildingId: Swift.Int, buildingName: Swift.String, shopStatus: Swift.String?, buildingUid: Swift.String?, buildingImageBaseUrl: Swift.String?, buildingCoverImages: [Swift.String]?, timeHint: (Swift.String, Swift.String), isCurrentlyOpen: Swift.Bool)
+  @objc deinit
+}
+public protocol CustomNavigationBarDelegate : ObjectiveC.NSObject {
+  func textDidChanged(searchText: Swift.String, inSearch: Swift.Bool, isExitSearch: Swift.Bool)
+  func backButtonTapped()
+  func micButtonTapped()
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class CustomNavigationBar : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.CustomNavigationBarDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func hideNavigationBackButton(hide: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setTitle(_ title: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func isFromTabbar(_ value: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func updateUI()
+  @_Concurrency.MainActor(unsafe) public func backButtonAction()
+  @_Concurrency.MainActor(unsafe) public func updateSearchText(_ text: Swift.String)
+  @objc deinit
+}
+extension MapstedComponentsUI.CustomNavigationBar : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldClear(_ textField: UIKit.UITextField) -> Swift.Bool
+}
+extension MapstedComponentsUI.KeywordCellLayout {
+  public struct LayoutInfo {
+  }
+}
+extension MapstedComponentsUI.BuildingListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+public enum Translations {
+}
+public protocol LoginViewControllerDelegate : ObjectiveC.NSObject {
+  func loginSuccess()
+  func loginFailed(error: Swift.String)
+}
+extension MapstedComponentsUI.LoginViewControllerDelegate {
+  public func loginFailed(error: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LoginViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.LoginViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) public static func instantiateViewController(delegate: (any MapstedComponentsUI.LoginViewControllerDelegate)?) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.LoginViewController : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
+public struct EntityChooser : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19MapstedComponentsUI13EntityChooserV4bodyQrvp", 0) __
+}
+public protocol CategorySelectionDelegate {
+  func selectedCategory(category: MapstedCore.MNCategory)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CategoryCarouselViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static func instantiateViewController(propertyInfo: MapstedCore.PropertyInfo, categoryUIDs: [Swift.String], alignmentIsVertical: Swift.Bool = false, delegate: any MapstedComponentsUI.CategorySelectionDelegate) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) public func setCategoryTextColor(color: UIKit.UIColor)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMove(toParent parent: UIKit.UIViewController?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.CategoryCarouselViewController : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension MapstedComponentsUI.CategoryCarouselViewController : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension MapstedComponentsUI.CategoryCarouselViewController : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+}
+public protocol ExploreResultSelectionProtocol {
+  func didSelectEntityZone(zone: MapstedCore.MNEntityZone)
+  func willChooseFromGroup(searchEntityGroup: MapstedCore.SearchEntity)
+  func didSelectArbitraryLocation(tag: MapstedCore.MNTag)
+}
+public protocol ArbitraryLocationSelectionDelegate {
+  func selected(tag: MapstedCore.MNTag)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ExploreResultsManager : ObjectiveC.NSObject {
+  public static let shared: MapstedComponentsUI.ExploreResultsManager
+  public func updateExplores(explores: [Swift.String : [MapstedCore.Explore]], tags: [MapstedCore.MNTag], forTableView tableView: UIKit.UITableView, withHandler handler: (any MapstedComponentsUI.ExploreResultSelectionProtocol)? = nil)
+  @objc deinit
+}
+extension MapstedComponentsUI.ExploreResultsManager : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+extension MapstedComponentsUI.ExploreResultsManager : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class KeywordCellLayout : UIKit.UICollectionViewLayout {
+  @_Concurrency.MainActor(unsafe) public init(alignment: MapstedComponentsUI.KeywordCellLayout.LayoutAlignment = .left, delegate: (any MapstedComponentsUI.KeywordCellLayoutDelegate)?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepare()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForItem(at indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewLayoutAttributes?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var collectionViewContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+extension MapstedComponentsUI.PropertiesListViewController : UIKit.UISearchBarDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarBookmarkButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarCancelButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
+}
+public protocol BuildingListViewControllerDelegate : ObjectiveC.NSObject {
+  func openBuildingDetails(buildingInfo: MapstedCore.BuildingInfo)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class BuildingListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var propertyId: Swift.Int
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.BuildingListViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) public var isFromTabbar: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.BuildingListViewController : MapstedComponentsUI.CustomNavigationBarDelegate {
+  @_Concurrency.MainActor(unsafe) public func micButtonTapped()
+  @_Concurrency.MainActor(unsafe) public func textDidChanged(searchText: Swift.String, inSearch: Swift.Bool, isExitSearch: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func backButtonTapped()
+}
+extension Swift.String {
+  public func localizedMain(_ defaultString: Swift.String) -> Swift.String
+}
+public protocol PropertiesListViewControllerDelegate : ObjectiveC.NSObject {
+  func selectProperty(propertyInfo: MapstedCore.PropertyInfo)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class PropertiesListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var showBannerForSelectProperty: Swift.Bool
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.PropertiesListViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func showHeaderView(show: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setHeaderViewDetails(title: Swift.String? = nil, message: Swift.String? = nil, titleTextColor: UIKit.UIColor? = nil, messageTextColor: UIKit.UIColor? = nil, image: UIKit.UIImage? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedComponentsUI.PropertiesListViewController {
+  @_Concurrency.MainActor(unsafe) public func onSuccess()
+  @_Concurrency.MainActor(unsafe) public func onFailure(errorCode: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onStatusUpdate(update: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onStatusMessage(messageType: Swift.Int)
+}
+extension MapstedComponentsUI.PropertiesListViewController : MapstedCore.PropertyDownloadListener, MapstedCore.PropertyAutoDownloadListener {
+  @_Concurrency.MainActor(unsafe) public func onSuccess(propertyId: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onSuccess(propertyId: Swift.Int, buildingId: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onFailureWithProperty(propertyId: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onFailureWithBuilding(propertyId: Swift.Int, buildingId: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onProgress(propertyId: Swift.Int, percentage: Swift.Float)
+}
+extension MapstedComponentsUI.PropertiesListViewController : MapstedComponentsUI.CustomNavigationBarDelegate {
+  @_Concurrency.MainActor(unsafe) public func textDidChanged(searchText: Swift.String, inSearch: Swift.Bool, isExitSearch: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func backButtonTapped()
+  @_Concurrency.MainActor(unsafe) public func micButtonTapped()
+}
+extension MapstedComponentsUI.PropertiesListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CategoryListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var isFromTabbar: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var propertyId: Swift.Int
+  @_Concurrency.MainActor(unsafe) public var categoryId: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum CategoryType {
+  case Root
+  case Branch
+  case Other
+  public static func == (a: MapstedComponentsUI.CategoryType, b: MapstedComponentsUI.CategoryType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Category {
+  public var categoryId: Swift.String
+  public var name: Swift.String
+  public var propertyId: Swift.Int
+  public var iconUrl: Swift.String
+  public var categoryType: MapstedComponentsUI.CategoryType
+  public var hasChild: Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ComponentFactory {
+  public static func getEntityChooser(handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, routingOptions: MapstedCore.MNRouteOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserViewController
+  public static func getEntityChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable], routingOptions: MapstedCore.MNRouteOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserContainerViewController
+  public static func getSearchableChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable]) -> MapstedComponentsUI.SearchableChooserViewController
+  @objc deinit
+}
+extension MapstedComponentsUI.KeywordCellLayout.LayoutAlignment : Swift.Equatable {}
+extension MapstedComponentsUI.KeywordCellLayout.LayoutAlignment : Swift.Hashable {}
+extension MapstedComponentsUI.KeywordCellLayout.LayoutAlignment : Swift.RawRepresentable {}
+extension MapstedComponentsUI.ActionType : Swift.Equatable {}
+extension MapstedComponentsUI.ActionType : Swift.Hashable {}
+extension MapstedComponentsUI.SearchResultSection : Swift.Equatable {}
+extension MapstedComponentsUI.SearchResultSection : Swift.Hashable {}
+extension MapstedComponentsUI.SearchResultSection : Swift.RawRepresentable {}
+extension MapstedComponentsUI.CategoryType : Swift.Equatable {}
+extension MapstedComponentsUI.CategoryType : Swift.Hashable {}

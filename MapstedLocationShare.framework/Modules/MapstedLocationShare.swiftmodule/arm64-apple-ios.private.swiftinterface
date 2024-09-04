@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedLocationShare
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
+import Foundation
+import MapstedCore
+@_exported import MapstedLocationShare
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol LocationControllerInterface {
+  func addShareLiveLocationChangeListener(listener: any MapstedLocationShare.ShareLiveLocationListener)
+  func removeShareLiveLocationChangeListener(listener: any MapstedLocationShare.ShareLiveLocationListener)
+  func startLocationShareUpdates(propertyId: Swift.Int, position: MapstedCore.MNPosition, completion: @escaping (MapstedLocationShare.ShareLiveLocationResponse?) -> ())
+  func stopLocationShareUpdates()
+  func isShareLiveLocationEnabled() -> Swift.Bool
+  func bringTopBarViewToFront()
+}
+public protocol LocationShareInterface {
+  func showLiveLocationBar()
+  func hideLiveLocationBar()
+}
+@_spi(InternalLocLiveShare) @_hasMissingDesignatedInitializers public class LocationShareManager {
+  @_spi(InternalLocLiveShare) public static let shared: any MapstedLocationShare.LocationShareInterface
+  @_spi(InternalLocLiveShare) @objc deinit
+}
+@objc public protocol ShareLiveLocationListener {
+  @objc func onShareLiveLocationEnabled(enabled: Swift.Bool)
+}
+public class ShareLiveLocationResponse : Swift.Codable {
+  final public let success: Swift.Bool
+  final public let url: Swift.String?
+  final public let id: Swift.String?
+  final public let error: Swift.String?
+  public init(success: Swift.Bool, url: Swift.String?, id: Swift.String?, error: Swift.String?)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class LocationShareApi {
+  public static let location: any MapstedLocationShare.LocationControllerInterface
+  @objc deinit
+}
+public class UpdateLiveLocationResponse : Swift.Codable {
+  final public let success: Swift.Bool
+  final public let error: Swift.String?
+  public init(success: Swift.Bool, error: Swift.String?)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}

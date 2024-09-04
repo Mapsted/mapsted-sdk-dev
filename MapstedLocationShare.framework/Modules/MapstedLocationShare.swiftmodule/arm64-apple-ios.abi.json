@@ -1,0 +1,2293 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationControllerInterface",
+        "printedName": "LocationControllerInterface",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addShareLiveLocationChangeListener",
+            "printedName": "addShareLiveLocationChangeListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShareLiveLocationListener",
+                "printedName": "MapstedLocationShare.ShareLiveLocationListener",
+                "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP03addc4LiveB14ChangeListener8listeneryAA0cgbI0_p_tF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP03addc4LiveB14ChangeListener8listeneryAA0cgbI0_p_tF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeShareLiveLocationChangeListener",
+            "printedName": "removeShareLiveLocationChangeListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShareLiveLocationListener",
+                "printedName": "MapstedLocationShare.ShareLiveLocationListener",
+                "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP06removec4LiveB14ChangeListener8listeneryAA0cgbI0_p_tF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP06removec4LiveB14ChangeListener8listeneryAA0cgbI0_p_tF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLocationShareUpdates",
+            "printedName": "startLocationShareUpdates(propertyId:position:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MNPosition",
+                "printedName": "MapstedCore.MNPosition",
+                "usr": "c:objc(cs)MNPosition"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedLocationShare.ShareLiveLocationResponse?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MapstedLocationShare.ShareLiveLocationResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShareLiveLocationResponse",
+                        "printedName": "MapstedLocationShare.ShareLiveLocationResponse",
+                        "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP05startbC7Updates10propertyId8position10completionySi_So10MNPositionCyAA0c4LiveB8ResponseCSgctF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP05startbC7Updates10propertyId8position10completionySi_So10MNPositionCyAA0c4LiveB8ResponseCSgctF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLocationShareUpdates",
+            "printedName": "stopLocationShareUpdates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP04stopbC7UpdatesyyF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP04stopbC7UpdatesyyF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isShareLiveLocationEnabled",
+            "printedName": "isShareLiveLocationEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP02isc4LiveB7EnabledSbyF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP02isc4LiveB7EnabledSbyF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bringTopBarViewToFront",
+            "printedName": "bringTopBarViewToFront()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP22bringTopBarViewToFrontyyF",
+            "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP22bringTopBarViewToFrontyyF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationControllerInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationControllerInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP",
+        "mangledName": "$s20MapstedLocationShare0B19ControllerInterfaceP",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationShareInterface",
+        "printedName": "LocationShareInterface",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showLiveLocationBar",
+            "printedName": "showLiveLocationBar()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0bC9InterfaceP08showLiveB3BaryyF",
+            "mangledName": "$s20MapstedLocationShare0bC9InterfaceP08showLiveB3BaryyF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationShareInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationShareInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideLiveLocationBar",
+            "printedName": "hideLiveLocationBar()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0bC9InterfaceP08hideLiveB3BaryyF",
+            "mangledName": "$s20MapstedLocationShare0bC9InterfaceP08hideLiveB3BaryyF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.LocationShareInterface>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.LocationShareInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20MapstedLocationShare0bC9InterfaceP",
+        "mangledName": "$s20MapstedLocationShare0bC9InterfaceP",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationShareManager",
+        "printedName": "LocationShareManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationShareInterface",
+                "printedName": "MapstedLocationShare.LocationShareInterface",
+                "usr": "s:20MapstedLocationShare0bC9InterfaceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0bC7ManagerC6sharedAA0bC9Interface_pvpZ",
+            "mangledName": "$s20MapstedLocationShare0bC7ManagerC6sharedAA0bC9Interface_pvpZ",
+            "moduleName": "MapstedLocationShare",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "InternalLocLiveShare"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationShareInterface",
+                    "printedName": "MapstedLocationShare.LocationShareInterface",
+                    "usr": "s:20MapstedLocationShare0bC9InterfaceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0bC7ManagerC6sharedAA0bC9Interface_pvgZ",
+                "mangledName": "$s20MapstedLocationShare0bC7ManagerC6sharedAA0bC9Interface_pvgZ",
+                "moduleName": "MapstedLocationShare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "InternalLocLiveShare"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20MapstedLocationShare0bC7ManagerC",
+        "mangledName": "$s20MapstedLocationShare0bC7ManagerC",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "InternalLocLiveShare"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShareLiveLocationListener",
+        "printedName": "ShareLiveLocationListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onShareLiveLocationEnabled",
+            "printedName": "onShareLiveLocationEnabled(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener(im)onShareLiveLocationEnabledWithEnabled:",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ListenerP02oncdB7Enabled7enabledySb_tF",
+            "moduleName": "MapstedLocationShare",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedLocationShare.ShareLiveLocationListener>",
+            "sugared_genericSig": "<Self where Self : MapstedLocationShare.ShareLiveLocationListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener",
+        "mangledName": "$s20MapstedLocationShare0c4LiveB8ListenerP",
+        "moduleName": "MapstedLocationShare",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShareLiveLocationResponse",
+        "printedName": "ShareLiveLocationResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC7successSbvp",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC7successSbvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC7successSbvg",
+                "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC7successSbvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC3urlSSSgvp",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC3urlSSSgvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC3urlSSSgvg",
+                "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC3urlSSSgvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC2idSSSgvp",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC2idSSSgvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC2idSSSgvg",
+                "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC2idSSSgvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC5errorSSSgvp",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC5errorSSSgvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC5errorSSSgvg",
+                "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC5errorSSSgvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:url:id:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShareLiveLocationResponse",
+                "printedName": "MapstedLocationShare.ShareLiveLocationResponse",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC7success3url2id5errorACSb_SSSgA2Htcfc",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC7success3url2id5errorACSb_SSSgA2Htcfc",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShareLiveLocationResponse",
+                "printedName": "MapstedLocationShare.ShareLiveLocationResponse",
+                "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20MapstedLocationShare0c4LiveB8ResponseC",
+        "mangledName": "$s20MapstedLocationShare0c4LiveB8ResponseC",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationShareApi",
+        "printedName": "LocationShareApi",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationControllerInterface",
+                "printedName": "MapstedLocationShare.LocationControllerInterface",
+                "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare0bC3ApiC8locationAA0B19ControllerInterface_pvpZ",
+            "mangledName": "$s20MapstedLocationShare0bC3ApiC8locationAA0B19ControllerInterface_pvpZ",
+            "moduleName": "MapstedLocationShare",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationControllerInterface",
+                    "printedName": "MapstedLocationShare.LocationControllerInterface",
+                    "usr": "s:20MapstedLocationShare0B19ControllerInterfaceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare0bC3ApiC8locationAA0B19ControllerInterface_pvgZ",
+                "mangledName": "$s20MapstedLocationShare0bC3ApiC8locationAA0B19ControllerInterface_pvgZ",
+                "moduleName": "MapstedLocationShare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20MapstedLocationShare0bC3ApiC",
+        "mangledName": "$s20MapstedLocationShare0bC3ApiC",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UpdateLiveLocationResponse",
+        "printedName": "UpdateLiveLocationResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC7successSbvp",
+            "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC7successSbvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC7successSbvg",
+                "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC7successSbvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC5errorSSSgvp",
+            "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC5errorSSSgvp",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC5errorSSSgvg",
+                "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC5errorSSSgvg",
+                "moduleName": "MapstedLocationShare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateLiveLocationResponse",
+                "printedName": "MapstedLocationShare.UpdateLiveLocationResponse",
+                "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC7success5errorACSb_SSSgtcfc",
+            "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC7success5errorACSb_SSSgtcfc",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateLiveLocationResponse",
+                "printedName": "MapstedLocationShare.UpdateLiveLocationResponse",
+                "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MapstedLocationShare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20MapstedLocationShare010UpdateLiveB8ResponseC",
+        "mangledName": "$s20MapstedLocationShare010UpdateLiveB8ResponseC",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MapstedLocationShare"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 25,
+      "value": "\"LocationInProgress.Text\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 36,
+      "value": "\"Location Sharing is in progress...\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 361,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 396,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1989,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3103,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3351,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3688,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4503,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareLiveLocationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "56.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 691,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 705,
+      "length": 5,
+      "value": "140.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 711,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 724,
+      "length": 4,
+      "value": "67.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 729,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 743,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1171,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1221,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 19,
+      "value": "\"ShareLiveLocation\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
+      "length": 18,
+      "value": "\"SHARELIVE_TOPBAR\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2019,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2043,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2056,
+      "length": 3,
+      "value": "230"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2068,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2377,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2527,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2583,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2686,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2752,
+      "length": 3,
+      "value": "222"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2756,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2767,
+      "length": 3,
+      "value": "225"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2781,
+      "length": 3,
+      "value": "227"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2785,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2797,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2990,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3001,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3057,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/ShareUI\/ShareLiveLocationTopBarViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3113,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 8,
+      "value": "\"apikey\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2133,
+      "length": 60,
+      "value": "\"URLSessionManager - requestPostAsync - Context: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2348,
+      "length": 92,
+      "value": "\"URLSessionManager - requestPostAsync - Key '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2399,
+      "length": 42,
+      "value": "\"' not found: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2439,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2478,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 96,
+      "value": "\"URLSessionManager - requestPostAsync - Value '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2766,
+      "length": 42,
+      "value": "\"' not found: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2806,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2845,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2918,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3077,
+      "length": 93,
+      "value": "\"URLSessionManager - requestPostAsync - Type '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3130,
+      "length": 41,
+      "value": "\"' mismatch: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3169,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3208,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3281,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3393,
+      "length": 93,
+      "value": "\"URLSessionManager - requestPostAsync - decode response data to json format failed: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3711,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4134,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4174,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 8,
+      "value": "\"apikey\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4869,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5053,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5059,
+      "length": 3,
+      "value": "209"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5185,
+      "length": 67,
+      "value": "\"Error: HTTP response failure with code.\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5251,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5739,
+      "length": 60,
+      "value": "\"URLSessionManager - requestPostAsync - Context: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5798,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5970,
+      "length": 92,
+      "value": "\"URLSessionManager - requestPostAsync - Key '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6021,
+      "length": 42,
+      "value": "\"' not found: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6061,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6104,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6177,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6353,
+      "length": 96,
+      "value": "\"URLSessionManager - requestPostAsync - Value '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6408,
+      "length": 42,
+      "value": "\"' not found: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6448,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6491,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6564,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6739,
+      "length": 93,
+      "value": "\"URLSessionManager - requestPostAsync - Type '\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6792,
+      "length": 41,
+      "value": "\"' mismatch: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6831,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6874,
+      "length": 74,
+      "value": "\"URLSessionManager - requestPostAsync - codingPath: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7075,
+      "length": 93,
+      "value": "\"URLSessionManager - requestPostAsync - decode response data to json format failed: \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/LocalizationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 16,
+      "value": "\"AppleLanguages\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/LocalizationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/LocalizationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 34,
+      "value": "\"com.mapsted.MapstedLocationShare\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Translations\/LocalizationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 7,
+      "value": "\"lproj\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 38,
+      "value": "\"https:\/\/public-test.mapsted.com\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 39,
+      "value": "\"https:\/\/public-stage.mapsted.com\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/URLManager.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
+      "length": 33,
+      "value": "\"https:\/\/public.mapsted.com\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 38,
+      "value": "\"8f80b262-ed52-4034-99bf-3fd7dbd57b0c\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Delegate\/ShareLiveLocationListenerManager.swift",
+      "kind": "Array",
+      "offset": 500,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/Delegate\/ShareLiveLocationListenerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/Models\/ShareLiveLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/Models\/ShareLiveLocationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 22,
+      "value": "\"v1\/shareLiveLocation\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 53,
+      "value": "\"Invalid Request Parameters for shareLiveLocationAPI\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 40,
+      "value": "\"Url - shareLiveLocationAPI - \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 55,
+      "value": "\"Share Live Location API failed with error :- \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1674,
+      "length": 23,
+      "value": "\"v1\/shareLiveLocation\/\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 50,
+      "value": "\"Invalid Request Parameters for updateLocationAPI\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2106,
+      "length": 37,
+      "value": "\"Url - updateLocationAPI - \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2142,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2205,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2380,
+      "length": 56,
+      "value": "\"Update Live Location API failed with error :- \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2865,
+      "length": 23,
+      "value": "\"v1\/shareLiveLocation\/\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3013,
+      "length": 37,
+      "value": "\"Url - updateLocationAPI - \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3049,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3112,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "Dictionary",
+      "offset": 3134,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 56,
+      "value": "\"Delete Live Location API failed with error :- \""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-location-share\/MapstedLocationShare\/MapstedLocationShare\/Classes\/WebAPIs\/ServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3338,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedLocationShare-cccinhtfyxojzwbfhdujzhpmuvtl\/Build\/Intermediates.noindex\/MapstedLocationShare.build\/Release-iphoneos\/MapstedLocationShare.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 11,
+      "value": "\"stop_icon\""
+    }
+  ]
+}

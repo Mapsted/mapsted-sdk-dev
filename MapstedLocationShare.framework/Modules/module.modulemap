@@ -1,0 +1,11 @@
+framework module MapstedLocationShare {
+  umbrella header "MapstedLocationShare.h"
+  export *
+
+  module * { export * }
+}
+
+module MapstedLocationShare.Swift {
+  header "MapstedLocationShare-Swift.h"
+  requires objc
+}
