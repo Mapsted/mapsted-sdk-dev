@@ -24298,378 +24298,378 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 1239,
+      "offset": 1236,
       "length": 24,
       "value": "\"#UserMarker: - \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 1323,
+      "offset": 1320,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 1660,
+      "offset": 1657,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1712,
+      "offset": 1709,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1718,
+      "offset": 1715,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1723,
+      "offset": 1720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1776,
+      "offset": 1773,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1782,
+      "offset": 1779,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1788,
+      "offset": 1785,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1842,
+      "offset": 1839,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 1855,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1871,
+      "offset": 1868,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 2863,
+      "offset": 2860,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 3010,
+      "offset": 3007,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3252,
+      "offset": 3249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 3423,
+      "offset": 3420,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 5042,
+      "offset": 5039,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 5549,
+      "offset": 5546,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5570,
+      "offset": 5567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5783,
+      "offset": 5780,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8148,
+      "offset": 8145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8293,
+      "offset": 8290,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8339,
+      "offset": 8336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8380,
+      "offset": 8377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8698,
+      "offset": 8695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8942,
+      "offset": 8939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 9058,
+      "offset": 9055,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 9764,
+      "offset": 9761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 9995,
+      "offset": 9992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 10289,
+      "offset": 10286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 10550,
+      "offset": 10547,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 11378,
+      "offset": 11375,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 13064,
+      "offset": 13061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 13735,
+      "offset": 13732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 15497,
+      "offset": 15494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 15997,
+      "offset": 15994,
       "length": 23,
       "value": "\"INDOORS_LEVEL_VISIBLE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 16137,
+      "offset": 16134,
       "length": 22,
       "value": "\"INDOORS_LEVEL_HIDDEN\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 16277,
+      "offset": 16274,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 16324,
+      "offset": 16321,
       "length": 22,
       "value": "\"OUTDOORS_ON_PROPERTY\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 16446,
+      "offset": 16443,
       "length": 22,
       "value": "\"OUTDOORS_OFF_PREMISE\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16662,
+      "offset": 16659,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16696,
+      "offset": 16693,
       "length": 3,
       "value": "9.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 16756,
+      "offset": 16753,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 16797,
+      "offset": 16794,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 16969,
+      "offset": 16966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 17093,
+      "offset": 17090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 17203,
+      "offset": 17200,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 17274,
+      "offset": 17271,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 17535,
+      "offset": 17532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "BooleanLiteral",
-      "offset": 17651,
+      "offset": 17648,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 17749,
+      "offset": 17746,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 17813,
+      "offset": 17810,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/UserMarker\/UserMarker.swift",
       "kind": "StringLiteral",
-      "offset": 1158,
+      "offset": 1155,
       "length": 10,
       "value": "\"MapstedMap.UserMarker\""
     },
@@ -27049,329 +27049,329 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 1458,
+      "offset": 1099,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 1500,
+      "offset": 1141,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1822,
+      "offset": 1463,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1906,
+      "offset": 1547,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2396,
+      "offset": 2037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2419,
+      "offset": 2060,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2628,
+      "offset": 2269,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2848,
+      "offset": 2489,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3970,
+      "offset": 3300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4235,
+      "offset": 3565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4371,
+      "offset": 3701,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4614,
+      "offset": 3944,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7052,
+      "offset": 6382,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 7096,
+      "offset": 6426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7240,
+      "offset": 6570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 7283,
+      "offset": 6613,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 8245,
+      "offset": 7575,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8288,
+      "offset": 7618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 8410,
+      "offset": 7740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8453,
+      "offset": 7783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 9011,
+      "offset": 8341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 9091,
+      "offset": 8421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 9166,
+      "offset": 8496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 9237,
+      "offset": 8567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10048,
+      "offset": 9378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10140,
+      "offset": 9470,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10221,
+      "offset": 9551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10298,
+      "offset": 9628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11666,
+      "offset": 10996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11746,
+      "offset": 11076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11821,
+      "offset": 11151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11892,
+      "offset": 11222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 14340,
+      "offset": 13670,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 15365,
+      "offset": 14695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 15455,
+      "offset": 14785,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 15638,
+      "offset": 14968,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 15973,
+      "offset": 15303,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 16480,
+      "offset": 15810,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 16746,
+      "offset": 16076,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 16795,
+      "offset": 16125,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 16821,
+      "offset": 16151,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 16869,
+      "offset": 16199,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 16895,
+      "offset": 16225,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17272,
+      "offset": 16602,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17295,
+      "offset": 16625,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17326,
+      "offset": 16656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlaySettingsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17349,
+      "offset": 16679,
       "length": 1,
       "value": "0"
     },
@@ -36681,56 +36681,56 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16859,
+      "offset": 16569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18351,
+      "offset": 17798,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18398,
+      "offset": 17845,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18893,
+      "offset": 18340,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19119,
+      "offset": 18566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19132,
+      "offset": 18579,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19172,
+      "offset": 18619,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Maps\/MNLayerManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19197,
+      "offset": 18644,
       "length": 1,
       "value": "2"
     },
@@ -38032,147 +38032,147 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1817,
+      "offset": 1301,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1331,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1964,
+      "offset": 1448,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
+      "offset": 1478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2123,
+      "offset": 1607,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2159,
+      "offset": 1643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2256,
+      "offset": 1740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 2780,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3330,
+      "offset": 2814,
       "length": 13,
       "value": "\"coordinates\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 2780,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3330,
+      "offset": 2814,
       "length": 13,
       "value": "\"coordinates\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "Array",
-      "offset": 3696,
+      "offset": 3180,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "Array",
-      "offset": 3774,
+      "offset": 3258,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3855,
+      "offset": 3339,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3937,
+      "offset": 3421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3962,
+      "offset": 3446,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5328,
+      "offset": 4812,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 4852,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5328,
+      "offset": 4812,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 4852,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-core\/map\/Model\/Dynamic\/MapOverlayModel.swift",
       "kind": "Array",
-      "offset": 5971,
+      "offset": 5455,
       "length": 2,
       "value": "[]"
     },

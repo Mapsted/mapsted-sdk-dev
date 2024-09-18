@@ -6751,7 +6751,6 @@
             "mangledName": "$s12MapstedMapUi0A32PermissionsRequestViewControllerC11viewDidLoadyyF",
             "moduleName": "MapstedMapUi",
             "overriding": true,
-            "isOpen": true,
             "objc_name": "viewDidLoad",
             "declAttributes": [
               "Dynamic",
@@ -6863,7 +6862,6 @@
         "usr": "c:@M@MapstedMapUi@objc(cs)MapstedPermissionsRequestViewController",
         "mangledName": "$s12MapstedMapUi0A32PermissionsRequestViewControllerC",
         "moduleName": "MapstedMapUi",
-        "isOpen": true,
         "declAttributes": [
           "Custom",
           "AccessControl",
@@ -35958,28 +35956,28 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/PermissionsRequest\/View\/PermissionsRequestView\/MapstedPermissionsRequestViewController.swift",
       "kind": "Array",
-      "offset": 734,
+      "offset": 736,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/PermissionsRequest\/View\/PermissionsRequestView\/MapstedPermissionsRequestViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2385,
+      "offset": 2389,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/PermissionsRequest\/View\/PermissionsRequestView\/MapstedPermissionsRequestViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2683,
+      "offset": 2687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/PermissionsRequest\/View\/PermissionsRequestView\/MapstedPermissionsRequestViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2725,
+      "offset": 2729,
       "length": 5,
       "value": "false"
     },

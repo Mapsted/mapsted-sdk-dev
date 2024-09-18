@@ -344,10 +344,10 @@ public enum PERMISSION_REQUEST_TYPE {
 public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   func requestPermissionsDidComplete()
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MapstedPermissionsRequestViewController : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MapstedPermissionsRequestViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var requestPermissions: [MapstedMapUi.PERMISSION_REQUEST_TYPE]
   @_Concurrency.MainActor(unsafe) public static func instantiateViewController(requestPermissions: [MapstedMapUi.PERMISSION_REQUEST_TYPE], delegate: any MapstedMapUi.MapstedPermissionsRequestVCDelegate) -> MapstedMapUi.MapstedPermissionsRequestViewController
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit

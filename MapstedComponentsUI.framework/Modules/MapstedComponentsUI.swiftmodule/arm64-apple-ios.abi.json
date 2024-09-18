@@ -23134,106 +23134,113 @@
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10241,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10356,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10401,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10430,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "StringLiteral",
-      "offset": 10505,
+      "offset": 10261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 10548,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10984,
+      "offset": 10279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 11095,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11127,
+      "offset": 10394,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 11215,
+      "offset": 10439,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "StringLiteral",
-      "offset": 11247,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "StringLiteral",
-      "offset": 11275,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
-      "kind": "StringLiteral",
-      "offset": 11389,
+      "offset": 10543,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 11432,
+      "offset": 10586,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 11581,
+      "offset": 11022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11165,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 11285,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 11313,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 11427,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/CustomNavigationBar\/CustomNavigationBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11619,
       "length": 4,
       "value": "true"
     },
@@ -29849,13 +29856,13 @@
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/Extensions\/String+CredentialValidator.swift",
       "kind": "StringLiteral",
       "offset": 507,
-      "length": 74,
-      "value": "\"^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$\""
+      "length": 76,
+      "value": "\"^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%^&*?])[A-Za-z\\d!@#$%^&*?]{8,}$\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/Extensions\/String+CredentialValidator.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 671,
       "length": 17,
       "value": "\"SELF MATCHES %@\""
     },

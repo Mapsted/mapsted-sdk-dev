@@ -2659,14 +2659,14 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
       "kind": "StringLiteral",
-      "offset": 297,
+      "offset": 293,
       "length": 21,
       "value": "\"MapstedGeofence.FloorLocationCriteria\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 305,
       "length": 24,
       "value": "\"MapstedGeofence.PropertyLocationCriteria\""
     },
@@ -2722,14 +2722,14 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
       "kind": "Array",
-      "offset": 779,
+      "offset": 774,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 305,
       "length": 24,
       "value": "\"MapstedGeofence.BuildingLocationCriteria\""
     }
