@@ -337,6 +337,7 @@ public enum PERMISSION_REQUEST_TYPE {
   @_Concurrency.MainActor(unsafe) public var fillColor: UIKit.UIColor
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) public func setFillCover(color: UIKit.UIColor)
+  @_Concurrency.MainActor(unsafe) public func setTintColor(color: UIKit.UIColor)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -726,6 +727,7 @@ extension MapstedMapUi.CoreDataHelper {
   public func deleteTag(tag: MapstedCore.MNTag, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @available(*, deprecated)
   public func searchTags(propertyId: Swift.Int, search text: Swift.String) -> [MapstedMapUi.Tag]?
+  public func updateRouteName(routeId: Swift.Int64, newName: Swift.String) -> Swift.Bool
 }
 public enum Translations : Swift.String {
   case eSelectedLocation
@@ -809,6 +811,18 @@ public enum Translations : Swift.String {
   case eLoaderText
   case eSkipTitleText
   case ePermissionsTitle
+  case eFrom
+  case eTo
+  case eSaveRoute
+  case eShareRoute
+  case eErrorRouteNameEmpty
+  case eCharacterLimit
+  case eRouteNamePlaceholderText
+  case eRouteNameLabel
+  case eRouteNoDataAvailable
+  case eViewRouteOnMap
+  case eEditRouteName
+  case eDeleteRoute
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -858,6 +872,8 @@ extension MapstedMapUi.PropertyListViewController : UIKit.UITableViewDelegate {
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class ShadowView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var radiusOfCorner: CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) public var shadowOpacity: Swift.Float
+  @_Concurrency.MainActor(unsafe) public var cornersToRound: UIKit.UIRectCorner
+  @_Concurrency.MainActor(unsafe) public var customFillColor: UIKit.UIColor?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -917,6 +933,10 @@ public enum POIActionButtonType : Swift.String {
   case None
   case Promotion
   case Custom
+  case viewSteps
+  case go
+  case saveRoute
+  case shareRoute
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -974,6 +994,29 @@ public enum RoutingState : Swift.String {
     get
   }
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SavedRoutesViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var propertyInfo: MapstedCore.PropertyInfo?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MapstedMapUi.SavedRoutesViewController : MapstedComponentsUI.CustomNavigationBarDelegate {
+  @_Concurrency.MainActor(unsafe) public func textDidChanged(searchText: Swift.String, inSearch: Swift.Bool, isExitSearch: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func backButtonTapped()
+  @_Concurrency.MainActor(unsafe) public func micButtonTapped()
+}
+extension MapstedMapUi.SavedRoutesViewController : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+extension MapstedMapUi.SavedRoutesViewController : UIKit.UIPopoverPresentationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController) -> UIKit.UIModalPresentationStyle
+}
 extension MapstedCore.CMSCategory : Swift.Hashable, Swift.Equatable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (lhs: MapstedCore.CMSCategory, rhs: MapstedCore.CMSCategory) -> Swift.Bool
@@ -1016,6 +1059,246 @@ public enum SearchStyle {
   @_Concurrency.MainActor(unsafe) public func hideSearch()
   @_Concurrency.MainActor(unsafe) public func showSearch()
   @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(DOMNEntityZone) public class DOMNEntityZone : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension MapstedMapUi.DOMNEntityZone {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.DOMNEntityZone>
+  @objc @NSManaged dynamic public var landmarkEntityIds: ObjectiveC.NSObject? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var mapDataType: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var nearbyLandmarkName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var eSearchEntityZone: MapstedMapUi.DOSearchableEntity? {
+    @objc get
+    @objc set
+  }
+}
+extension MapstedMapUi.DOMNEntityZone : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(DOMNMercator) public class DOMNMercator : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension MapstedMapUi.DOMNMercator {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.DOMNMercator>
+  @objc @NSManaged dynamic public var x: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var y: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var z: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var eSearchLocation: MapstedMapUi.DOSearchableEntity? {
+    @objc get
+    @objc set
+  }
+}
+extension MapstedMapUi.DOMNMercator : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(DOMNMercatorZone) public class DOMNMercatorZone : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension MapstedMapUi.DOMNMercatorZone {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.DOMNMercatorZone>
+  @objc @NSManaged dynamic public var buildingId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var floorId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var propertyId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var x: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var y: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var z: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var eSearchLocations: MapstedMapUi.DOSearchableEntity? {
+    @objc get
+    @objc set
+  }
+}
+extension MapstedMapUi.DOMNMercatorZone : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(DOSavedRoutes) public class DOSavedRoutes : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension MapstedMapUi.DOSavedRoutes {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.DOSavedRoutes>
+  @objc @NSManaged dynamic public var isShortest: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var myCurrentLocation: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var propertyId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var routeId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var routeName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var saveDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var useElevators: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var useEscalators: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var useStairs: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var searchableEntity: Foundation.NSSet? {
+    @objc get
+    @objc set
+  }
+}
+extension MapstedMapUi.DOSavedRoutes {
+  @objc(addSearchableEntityObject:) @NSManaged dynamic public func addToSearchableEntity(_ value: MapstedMapUi.DOSearchableEntity)
+  @objc(removeSearchableEntityObject:) @NSManaged dynamic public func removeFromSearchableEntity(_ value: MapstedMapUi.DOSearchableEntity)
+  @objc(addSearchableEntity:) @NSManaged dynamic public func addToSearchableEntity(_ values: Foundation.NSSet)
+  @objc(removeSearchableEntity:) @NSManaged dynamic public func removeFromSearchableEntity(_ values: Foundation.NSSet)
+}
+extension MapstedMapUi.DOSavedRoutes : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(DOSearchableEntity) public class DOSearchableEntity : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension MapstedMapUi.DOSearchableEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.DOSearchableEntity>
+  @objc @NSManaged dynamic public var buildingId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var categoryName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var categoryTags: ObjectiveC.NSObject? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var categoryTagUids: ObjectiveC.NSObject? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var categoryUid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var floorId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var identifier: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var idString: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var isSearchEntity: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var matchWordSearchType: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var matchWordString: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var name: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var orderIndex: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var propertyId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var doSave: MapstedMapUi.DOSavedRoutes? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var entityZones: Foundation.NSSet? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var location: MapstedMapUi.DOMNMercator? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var locations: Foundation.NSSet? {
+    @objc get
+    @objc set
+  }
+}
+extension MapstedMapUi.DOSearchableEntity {
+  @objc(addEntityZonesObject:) @NSManaged dynamic public func addToEntityZones(_ value: MapstedMapUi.DOMNEntityZone)
+  @objc(removeEntityZonesObject:) @NSManaged dynamic public func removeFromEntityZones(_ value: MapstedMapUi.DOMNEntityZone)
+  @objc(addEntityZones:) @NSManaged dynamic public func addToEntityZones(_ values: Foundation.NSSet)
+  @objc(removeEntityZones:) @NSManaged dynamic public func removeFromEntityZones(_ values: Foundation.NSSet)
+}
+extension MapstedMapUi.DOSearchableEntity {
+  @objc(addLocationsObject:) @NSManaged dynamic public func addToLocations(_ value: MapstedMapUi.DOMNMercatorZone)
+  @objc(removeLocationsObject:) @NSManaged dynamic public func removeFromLocations(_ value: MapstedMapUi.DOMNMercatorZone)
+  @objc(addLocations:) @NSManaged dynamic public func addToLocations(_ values: Foundation.NSSet)
+  @objc(removeLocations:) @NSManaged dynamic public func removeFromLocations(_ values: Foundation.NSSet)
+}
+extension MapstedMapUi.DOSearchableEntity : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
 }
 @_inheritsConvenienceInitializers @objc(Tag) public class Tag : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)

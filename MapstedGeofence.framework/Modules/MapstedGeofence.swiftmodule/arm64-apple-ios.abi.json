@@ -2657,77 +2657,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 21,
       "value": "\"MapstedGeofence.FloorLocationCriteria\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 24,
       "value": "\"MapstedGeofence.PropertyLocationCriteria\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "Array",
       "offset": 2593,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 4420,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "Array",
       "offset": 4973,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 6238,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 6260,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 7203,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 7233,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
       "kind": "Array",
       "offset": 774,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 24,

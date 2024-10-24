@@ -4,11 +4,11 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import DeveloperToolsSupport
 import Foundation
-import Kingfisher
 import LocationMarketing
 import MapstedAlerts
 @_exported import MapstedComponentsUI
 @_spi(InternalUtilities) @_spi(InternalImages) @_spi(InternalCategories) @_spi(InternalPropertyServices) @_spi(InternalLocationServices) @_spi(InternalAuthManager) import MapstedCore
+import SDWebImage
 import Security
 import Swift
 import SwiftUI
@@ -330,8 +330,17 @@ public protocol CustomNavigationBarDelegate : ObjectiveC.NSObject {
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class CustomNavigationBar : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.CustomNavigationBarDelegate)?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var titleText: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var placeHolder: Swift.String {
+    @objc get
+    @objc set
+  }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func commonInit()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) public func hideNavigationBackButton(hide: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setTitle(_ title: Swift.String)

@@ -115,7 +115,7 @@ public protocol AlertBannerActionDelegate {
   func showEmergencyAlert(alertId: Swift.String)
 }
 public protocol MarketingBannerActionDelegate {
-  func showCampaign(campaignId: Swift.String)
+  func showCampaign(campaignId: Swift.String, propertyId: Swift.Int)
   func showAlert(propertyId: Swift.Int, alertId: Swift.String)
   func showEmergencyAlert(alertId: Swift.String)
 }

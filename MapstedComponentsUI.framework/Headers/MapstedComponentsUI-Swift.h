@@ -415,6 +415,8 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI26CategoryListViewController")
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC19MapstedComponentsUI19CustomNavigationBar")
 @interface CustomNavigationBar : UIView
+@property (nonatomic, copy) IBInspectable NSString * _Nonnull titleText;
+@property (nonatomic, copy) IBInspectable NSString * _Nonnull placeHolder;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
