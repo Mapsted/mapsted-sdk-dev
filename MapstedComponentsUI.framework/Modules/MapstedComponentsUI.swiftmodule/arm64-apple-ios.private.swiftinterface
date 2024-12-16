@@ -8,6 +8,7 @@ import LocationMarketing
 import MapstedAlerts
 @_exported import MapstedComponentsUI
 @_spi(InternalUtilities) @_spi(InternalImages) @_spi(InternalCategories) @_spi(InternalPropertyServices) @_spi(InternalLocationServices) @_spi(InternalAuthManager) import MapstedCore
+import MapstedTopBarNotification
 import SDWebImage
 import Security
 import Swift
@@ -262,7 +263,7 @@ public protocol AlertsTableViewDelegate : UIKit.UITableViewDataSource, UIKit.UIT
   func updateAlerts(withPropertyId propertyId: Swift.Int, alertsToShow: [Swift.String]?, forTableView tableView: UIKit.UITableView, withHandler handler: (any MapstedComponentsUI.AlertSelectionDelegate)?)
 }
 public class Property {
-  public init(propertyName: Swift.String, propertyAddress: Swift.String, propertyImageUrl: Swift.String?, propertyId: Swift.Int, imageUId: Swift.String?, isDownloadAvailable: Swift.Bool, propertyRadius: Swift.Double, distance: Swift.Double)
+  public init(propertyName: Swift.String, propertyAddress: Swift.String, propertyImageUrl: Swift.String?, propertyId: Swift.Int, imageUId: Swift.String?, isDownloadAvailable: Swift.Bool, propertyRadius: Swift.Double, distance: Swift.Double, propertyCountryCode: Swift.String)
   @objc deinit
 }
 public enum SearchResultSection : Swift.Int {
@@ -491,6 +492,7 @@ public protocol PropertiesListViewControllerDelegate : ObjectiveC.NSObject {
   @_Concurrency.MainActor(unsafe) public var showBannerForSelectProperty: Swift.Bool
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.PropertiesListViewControllerDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) public func showHeaderView(show: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setHeaderViewDetails(title: Swift.String? = nil, message: Swift.String? = nil, titleTextColor: UIKit.UIColor? = nil, messageTextColor: UIKit.UIColor? = nil, image: UIKit.UIImage? = nil)
@@ -517,6 +519,10 @@ extension MapstedComponentsUI.PropertiesListViewController : MapstedComponentsUI
   @_Concurrency.MainActor(unsafe) public func textDidChanged(searchText: Swift.String, inSearch: Swift.Bool, isExitSearch: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func backButtonTapped()
   @_Concurrency.MainActor(unsafe) public func micButtonTapped()
+}
+extension MapstedComponentsUI.PropertiesListViewController : MapstedTopBarNotification.MapstedNotificationListener {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTopBarNotificationEnabled(enabled: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTopBarNotificationCountUpdated(count: Swift.Int, height: CoreFoundation.CGFloat, heightMode: MapstedTopBarNotification.HeightMode)
 }
 extension MapstedComponentsUI.PropertiesListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int

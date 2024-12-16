@@ -1,18 +1,20 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AppTemplate
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppTemplate
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
+import CoreData
 import DeveloperToolsSupport
 import Foundation
 import LocationMarketing
 @_spi(InternalMapstedAlerts) import MapstedAlerts
 import MapstedComponentsCore
 import MapstedComponentsUI
-@_spi(AlertsPrivateApi) @_spi(InternalCategories) @_spi(InternalUtilities) @_spi(InternalLocationServices) @_spi(InternalPropertyServices) @_spi(InternalImages) @_spi(InternalAnalytics) import MapstedCore
+@_spi(AlertsPrivateApi) @_spi(InternalUtilities) @_spi(InternalCategories) @_spi(InternalLocationServices) @_spi(InternalPropertyServices) @_spi(InternalImages) @_spi(InternalAnalytics) import MapstedCore
 @_spi(InternalLocLiveShare) import MapstedLocationShare
 import MapstedMap
 import MapstedMapUi
+import MapstedTopBarNotification
 import MapstedTriggersCore
 import MessageUI
 import SDWebImage
@@ -115,6 +117,7 @@ extension Swift.String : Swift.Error {
 @_hasMissingDesignatedInitializers public class MapstedMenu {
   public static func builder() -> AppTemplate.MapstedMenu
   public func addItem(menuType: AppTemplate.MapstedMenuItemType, icon: UIKit.UIImage? = nil, name: Swift.String? = nil) -> AppTemplate.MapstedMenu
+  public func setFallbackForBuilding(menuType: AppTemplate.MapstedMenuItemType, icon: UIKit.UIImage? = nil, name: Swift.String? = nil) -> AppTemplate.MapstedMenu
   public func addCustomItem(icon: UIKit.UIImage, name: Swift.String, providerView: UIKit.UIViewController) -> AppTemplate.MapstedMenu
   public func build() -> AppTemplate.MapstedMenu
   @objc deinit
@@ -141,6 +144,58 @@ extension AppTemplate.LaunchViewController : MapstedTriggersCore.MarketingBanner
   @_Concurrency.MainActor(unsafe) public func showCampaign(campaignId: Swift.String, propertyId: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func showAlert(propertyId: Swift.Int, alertId: Swift.String)
   @_Concurrency.MainActor(unsafe) public func showEmergencyAlert(alertId: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class DisclaimerMessage : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension AppTemplate.DisclaimerMessage {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<AppTemplate.DisclaimerMessage>
+  @objc @NSManaged dynamic public var customMessage: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var messageAfter: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var messageBefore: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var messageId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+}
+extension AppTemplate.DisclaimerMessage : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@objc @_inheritsConvenienceInitializers public class PropertyMessageMap : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension AppTemplate.PropertyMessageMap {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<AppTemplate.PropertyMessageMap>
+  @objc @NSManaged dynamic public var isShown: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var isSyncedWithServer: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var messageId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var propertyId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+}
+extension AppTemplate.PropertyMessageMap : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
 }
 extension AppTemplate.BaseMapStyle : Swift.Equatable {}
 extension AppTemplate.BaseMapStyle : Swift.Hashable {}

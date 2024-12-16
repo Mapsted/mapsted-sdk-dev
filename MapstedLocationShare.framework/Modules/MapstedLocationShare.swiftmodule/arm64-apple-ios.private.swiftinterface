@@ -12,7 +12,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol LocationControllerInterface {
+public protocol LocationShareControllerInterface {
   func addShareLiveLocationChangeListener(listener: any MapstedLocationShare.ShareLiveLocationListener)
   func removeShareLiveLocationChangeListener(listener: any MapstedLocationShare.ShareLiveLocationListener)
   func startLocationShareUpdates(propertyId: Swift.Int, position: MapstedCore.MNPosition, completion: @escaping (MapstedLocationShare.ShareLiveLocationResponse?) -> ())
@@ -42,7 +42,7 @@ public class ShareLiveLocationResponse : Swift.Codable {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class LocationShareApi {
-  public static let location: any MapstedLocationShare.LocationControllerInterface
+  public static let location: any MapstedLocationShare.LocationShareControllerInterface
   @objc deinit
 }
 public class UpdateLiveLocationResponse : Swift.Codable {

@@ -4465,2254 +4465,2254 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "BooleanLiteral",
       "offset": 221,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "BooleanLiteral",
       "offset": 434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 10,
       "value": "\"RegionId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 12,
       "value": "\"RegionName\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 10,
       "value": "\"InRegion\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1184,
       "length": 24,
       "value": "\"LastEntryExitTimestamp\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1264,
       "length": 25,
       "value": "\"IsNotificationTriggered\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1330,
       "length": 10,
       "value": "\"Centroid\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1379,
       "length": 8,
       "value": "\"Radius\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1434,
       "length": 16,
       "value": "\"NorthEastPoint\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1497,
       "length": 16,
       "value": "\"SouthWestPoint\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 10,
       "value": "\"RegionId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1679,
       "length": 12,
       "value": "\"RegionName\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1752,
       "length": 10,
       "value": "\"InRegion\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1828,
       "length": 24,
       "value": "\"LastEntryExitTimestamp\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 1917,
       "length": 25,
       "value": "\"IsNotificationTriggered\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 2009,
       "length": 10,
       "value": "\"Centroid\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 2138,
       "length": 16,
       "value": "\"NorthEastPoint\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 2273,
       "length": 16,
       "value": "\"SouthWestPoint\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 2394,
       "length": 8,
       "value": "\"Radius\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Models\/Region.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 6,
       "value": "\"LocationMarketing.Region\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 29,
       "value": "\"location-marketing-category\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Dictionary",
       "offset": 508,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 554,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 614,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 30,
       "value": "\"serial_queue_marketing_event\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Dictionary",
       "offset": 2281,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 2365,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 2583,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 4818,
       "length": 27,
       "value": "\"InAppNotifyViewController\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 6092,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 6754,
       "length": 36,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 6823,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 6836,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 7605,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 7958,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 8334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 8417,
       "length": 6,
       "value": "\"logo\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 8534,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 8761,
       "length": 6,
       "value": "\"logo\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 9204,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 9582,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 9665,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 9783,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10010,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10332,
       "length": 40,
       "value": "\"createLocalNotification error \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10371,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10520,
       "length": 9,
       "value": "\"trigger\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10647,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10718,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10789,
       "length": 10,
       "value": "\"entityId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 10934,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11001,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11068,
       "length": 10,
       "value": "\"entityId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11480,
       "length": 25,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11491,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11504,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11567,
       "length": 38,
       "value": "\"propertyId:\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 11592,
       "length": 1,
       "value": "\"|campaignId:\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "IntegerLiteral",
       "offset": 11927,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 12278,
       "length": 23,
       "value": "\"WelcomeViewController\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 12347,
       "length": 26,
       "value": "\"LoginTableViewController\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 12419,
       "length": 34,
       "value": "\"CreateAccountTableViewController\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 12499,
       "length": 34,
       "value": "\"ResetPasswordTableViewController\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "Array",
       "offset": 12826,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "IntegerLiteral",
       "offset": 12967,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "IntegerLiteral",
       "offset": 14096,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 16446,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 16581,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 16876,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 16915,
       "length": 6,
       "value": "\"feed\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 17007,
       "length": 10,
       "value": "\"property\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "StringLiteral",
       "offset": 17099,
       "length": 6,
       "value": "\"feed\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 17384,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 17474,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 523,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 669,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 678,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 689,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 700,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 903,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1073,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1084,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 1130,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 1175,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 1452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 1784,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1949,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1958,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1969,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 1980,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 2184,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 2357,
       "length": 21,
       "value": "\"CampaignOpenBgColor\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 2498,
       "length": 12,
       "value": "\"icon_share\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 2725,
       "length": 19,
       "value": "\"InverseLabelColor\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 2981,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 2992,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 3038,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 3083,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 3387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 4450,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 4484,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 4544,
       "length": 19,
       "value": "\"default_big_image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 5168,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 5211,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 5342,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 5849,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 5901,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 6105,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6240,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6276,
       "length": 4,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6412,
       "length": 15,
       "value": "\"HelveticaNeue\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 6435,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 6624,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6746,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6789,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 6832,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 10003,
       "length": 24,
       "value": "\"icon_favorite_selected\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 10159,
       "length": 15,
       "value": "\"icon_favorite\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 10339,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 10809,
       "length": 15,
       "value": "\"icon_favorite\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 11156,
       "length": 24,
       "value": "\"icon_favorite_selected\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 11425,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 11692,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 12083,
       "length": 9,
       "value": "\"WEBSITE\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 12479,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 13132,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 13293,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 13743,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 13831,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 13883,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 14185,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 14482,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 14552,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "FloatLiteral",
       "offset": 14558,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 14857,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 14863,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 16029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 16533,
       "length": 22,
       "value": "\"com.mapsted.campusgo\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 16643,
       "length": 6,
       "value": "\"<BR>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 16861,
       "length": 183,
       "value": "\"<font face='Helvetica' size='5'>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 16907,
       "length": 45,
       "value": "\"You’ve been invited to download CampusGo!\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 16953,
       "length": 89,
       "value": "\"A special offer is waiting for you at \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17017,
       "length": 1,
       "value": "\" | From Mall mApp<\/font>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17043,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17655,
       "length": 331,
       "value": "\"<BR><font face='Helvetica' size='5'>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17705,
       "length": 88,
       "value": "\"Click the link below to download CampusGo today and explore campus in a whole new way!\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17795,
       "length": 182,
       "value": "\"Welcome to Mall mApp! <br\/><br\/> Easily get where you need to go, meet up with friends and family, and get exclusive offers.<br\/><br\/>Click on the link below to download Mall mApp.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 17978,
       "length": 2,
       "value": "\"<\/font>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18196,
       "length": 38,
       "value": "\"<font face='Helvetica' size='5'>iOS:\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18249,
       "length": 103,
       "value": "\"<a href=\"https:\/\/apps.apple.com\/us\/app\/id1505775827\">https:\/\/apps.apple.com\/us\/app\/id1505775827<\/a>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18354,
       "length": 67,
       "value": "\"<a href=\"https:\/\/apple.co\/2oXeJ5c\">https:\/\/apple.co\/2oXeJ5c<\/a>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18425,
       "length": 9,
       "value": "\"<\/font>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18577,
       "length": 42,
       "value": "\"<font face='Helvetica' size='5'>Android:\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18634,
       "length": 63,
       "value": "\"<a href=\"https:\/\/bit.ly\/35dnKaJ\">https:\/\/bit.ly\/35dnKaJ<\/a>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18700,
       "length": 63,
       "value": "\"<a href=\"https:\/\/bit.ly\/35dnKaJ\">https:\/\/bit.ly\/35dnKaJ<\/a>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 18767,
       "length": 9,
       "value": "\"<\/font>\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 19419,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 19801,
       "length": 22,
       "value": "\"CampaignCreativeView\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 19948,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20157,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20211,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20443,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20497,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 20549,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20790,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 20847,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 20912,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 21183,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 21247,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 21373,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 21724,
       "length": 14,
       "value": "\"no superview\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 21820,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 21901,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 21978,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 22057,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "StringLiteral",
       "offset": 22214,
       "length": 14,
       "value": "\"no superview\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 22335,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 22444,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 22547,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CampaignCreativeRow.swift",
       "kind": "BooleanLiteral",
       "offset": 22653,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 469,
       "length": 36,
       "value": "\"Core SDK has not been initialized.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 22,
       "value": "\"Initialize Core SDK \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 604,
       "length": 43,
       "value": "\"LocMarketing SDK has not been initialized\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 29,
       "value": "\"Initialize LocMarketing Api\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 743,
       "length": 39,
       "value": "\"Unable to parse Campaign notification\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 17,
       "value": "\"Unable to parse\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 32,
       "value": "\"Unable to process notification\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 920,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 1494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 1609,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 1812,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 1852,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "Array",
       "offset": 2150,
       "length": 31,
       "value": "[\"location-marketing-category\"]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 2349,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 2442,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 2538,
       "length": 12,
       "value": "\"buildingId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "StringLiteral",
       "offset": 2619,
       "length": 10,
       "value": "\"entityId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 2892,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 3014,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 3089,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/LocMarketingApi.swift",
       "kind": "BooleanLiteral",
       "offset": 3479,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 16,
       "value": "\"AppleLanguages\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 434,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 26,
       "value": "\"com.mapsted.LocMarketing\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/LocalizationManager.swift",
       "kind": "StringLiteral",
       "offset": 557,
       "length": 7,
       "value": "\"lproj\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 7,
       "value": "\"lproj\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/Extensions\/Strings+Localization.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 49,
       "value": "\"https:\/\/marketing.mapsted.com\/api\/v1\/interface\/\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 11,
       "value": "\"feed\/like\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 48,
       "value": "\"Error: decode feed data to json format failed.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1151,
       "length": 40,
       "value": "\"Property Category Fetch:\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1189,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1638,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1652,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1784,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1798,
       "length": 5,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1802,
       "length": 11,
       "value": "\"?data=uat\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1861,
       "length": 59,
       "value": "\"#CMSURL - fetchUrl .CMSCampaignsForProperty - \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 1919,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 2025,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 2275,
       "length": 72,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 2284,
       "length": 2,
       "value": "\" No campaigns for \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 2315,
       "length": 1,
       "value": "\". Failed with error :- \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/MNNetworkManager+CMS.swift",
       "kind": "StringLiteral",
       "offset": 2346,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 9,
       "value": "\"feedUID\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 15,
       "value": "\"LocationMarketing.FeedLikeRequest\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 12,
       "value": "\"NumOfLikes\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 1082,
       "length": 10,
       "value": "\"DoesLike\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 12,
       "value": "\"NumOfLikes\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 1082,
       "length": 10,
       "value": "\"DoesLike\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "BooleanLiteral",
       "offset": 1204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 1892,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 2479,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 2656,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 2808,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 2981,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 3114,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 3150,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "StringLiteral",
       "offset": 3566,
       "length": 19,
       "value": "\"CreativeFavorites\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/CMSCampaign.swift",
       "kind": "Array",
       "offset": 3716,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "FloatLiteral",
       "offset": 351,
       "length": 5,
       "value": "120.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "FloatLiteral",
       "offset": 482,
       "length": 3,
       "value": "1.1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "FloatLiteral",
       "offset": 583,
       "length": 5,
       "value": "120.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "Dictionary",
       "offset": 838,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "Array",
       "offset": 881,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 924,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 21,
       "value": "\"MessageFormatString\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "Array",
       "offset": 1195,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 1289,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 1407,
       "length": 21,
       "value": "\"MessageFormatString\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 1598,
       "length": 55,
       "value": "\"Welcome to %@! Use %@ to easily find your way around.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 1664,
       "length": 55,
       "value": "\"Welcome to %@! Use %@ to easily find your way around.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 1833,
       "length": 9,
       "value": "\"Regions\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2113,
       "length": 73,
       "value": "\"Unable to load regions from cache. Error: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2185,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 2422,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 9,
       "value": "\"Regions\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2587,
       "length": 73,
       "value": "\"Unable to update regions to cache. Error: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2659,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 2833,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 2987,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 3020,
       "length": 27,
       "value": "\"launchOptions: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 3046,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 3107,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 3627,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 3657,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 3717,
       "length": 16,
       "value": "\"EntryMallEvent\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 3965,
       "length": 72,
       "value": "\"Unable to add local notification. Error: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 4036,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 4913,
       "length": 30,
       "value": "\"In the region: [\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 4941,
       "length": 1,
       "value": "\"]\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 5039,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 5094,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 5223,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 5349,
       "length": 92,
       "value": "\"Entry the region [\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 5379,
       "length": 1,
       "value": "\"]. The time of re-entry since last time exit: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 5432,
       "length": 7,
       "value": "\" seconds\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 5733,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 5784,
       "length": 62,
       "value": "\"Deliver the local welcome notification. Region [\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 5844,
       "length": 1,
       "value": "\"]\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 6033,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 6188,
       "length": 21,
       "value": "\"MessageFormatString\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 6439,
       "length": 55,
       "value": "\"Welcome to %@! Use %@ to easily find your way around.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 6505,
       "length": 55,
       "value": "\"Welcome to %@! Use %@ to easily find your way around.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 7119,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 7180,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 7255,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 7400,
       "length": 32,
       "value": "\"Exit the region [\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 7429,
       "length": 1,
       "value": "\"].\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 8219,
       "length": 51,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 8231,
       "length": 2,
       "value": "\" is not enabled for property geofance.\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 8933,
       "length": 54,
       "value": "\"Update location \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 8983,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 8986,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 9467,
       "length": 58,
       "value": "\"PropertyGeofenceApi - didFailWithError - error: \""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "StringLiteral",
       "offset": 9524,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "FloatLiteral",
       "offset": 9842,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10008,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10153,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10674,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10747,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "BooleanLiteral",
       "offset": 10819,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 11375,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Documents\/Replacement_Kingfisher\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-loc-marketing\/LocMarketing\/LocMarketing\/PropertyGeofenceApi.swift",
       "kind": "IntegerLiteral",
       "offset": 11725,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 21,
       "value": "\"CampaignOpenBgColor\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 19,
       "value": "\"InverseLabelColor\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1043,
       "length": 6,
       "value": "\"back\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1186,
       "length": 19,
       "value": "\"default_big_image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1337,
       "length": 15,
       "value": "\"default_image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1481,
       "length": 12,
       "value": "\"icon_close\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1628,
       "length": 15,
       "value": "\"icon_favorite\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1795,
       "length": 24,
       "value": "\"icon_favorite_selected\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1952,
       "length": 17,
       "value": "\"icon_flip_image\""
     },
     {
-      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-faauhhgujzwzwdcugsegvnkvhqtl\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/LocMarketing-eaassxcwgjssnpgpsicudqinirrg\/Build\/Intermediates.noindex\/LocMarketing.build\/Release-iphoneos\/LocationMarketing.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2098,
       "length": 12,

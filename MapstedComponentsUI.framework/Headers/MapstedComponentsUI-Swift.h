@@ -279,6 +279,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreFoundation;
 @import Foundation;
+@import MapstedTopBarNotification;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -598,6 +599,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI23NewsFeedsViewController")
 SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 @interface PropertiesListViewController : UIViewController
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -606,6 +608,12 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 @end
 
 
+
+
+@interface PropertiesListViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <MapstedNotificationListener>
+- (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
+- (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
+@end
 
 
 

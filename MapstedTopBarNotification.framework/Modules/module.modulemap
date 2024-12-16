@@ -1,0 +1,11 @@
+framework module MapstedTopBarNotification {
+  umbrella header "MapstedTopBarNotification.h"
+  export *
+
+  module * { export * }
+}
+
+module MapstedTopBarNotification.Swift {
+  header "MapstedTopBarNotification-Swift.h"
+  requires objc
+}
